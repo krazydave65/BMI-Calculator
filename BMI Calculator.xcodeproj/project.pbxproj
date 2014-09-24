@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D42AFFB419D1F83B0060B32A /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D42AFFB319D1F83B0060B32A /* Settings.bundle */; };
 		D48C79B719C93F33002D4569 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D48C79B619C93F33002D4569 /* Foundation.framework */; };
 		D48C79B919C93F33002D4569 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D48C79B819C93F33002D4569 /* CoreGraphics.framework */; };
 		D48C79BB19C93F33002D4569 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D48C79BA19C93F33002D4569 /* UIKit.framework */; };
@@ -21,6 +22,15 @@
 		D48C79D819C93F33002D4569 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D48C79BA19C93F33002D4569 /* UIKit.framework */; };
 		D48C79E019C93F33002D4569 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D48C79DE19C93F33002D4569 /* InfoPlist.strings */; };
 		D48C79E219C93F33002D4569 /* BMI_CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D48C79E119C93F33002D4569 /* BMI_CalculatorTests.m */; };
+		D48C79ED19C944BA002D4569 /* BmiModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D48C79EC19C944BA002D4569 /* BmiModel.m */; };
+		D49D691F19D0F04B00F2E1CE /* body1.png in Resources */ = {isa = PBXBuildFile; fileRef = D49D691719D0F04B00F2E1CE /* body1.png */; };
+		D49D692019D0F04B00F2E1CE /* body2.png in Resources */ = {isa = PBXBuildFile; fileRef = D49D691819D0F04B00F2E1CE /* body2.png */; };
+		D49D692119D0F04B00F2E1CE /* body3.png in Resources */ = {isa = PBXBuildFile; fileRef = D49D691919D0F04B00F2E1CE /* body3.png */; };
+		D49D692219D0F04B00F2E1CE /* body4.png in Resources */ = {isa = PBXBuildFile; fileRef = D49D691A19D0F04B00F2E1CE /* body4.png */; };
+		D49D692319D0F04B00F2E1CE /* body5.png in Resources */ = {isa = PBXBuildFile; fileRef = D49D691B19D0F04B00F2E1CE /* body5.png */; };
+		D49D692419D0F04B00F2E1CE /* body6.png in Resources */ = {isa = PBXBuildFile; fileRef = D49D691C19D0F04B00F2E1CE /* body6.png */; };
+		D49D692519D0F04B00F2E1CE /* body7.png in Resources */ = {isa = PBXBuildFile; fileRef = D49D691D19D0F04B00F2E1CE /* body7.png */; };
+		D49D692619D0F04B00F2E1CE /* body8.png in Resources */ = {isa = PBXBuildFile; fileRef = D49D691E19D0F04B00F2E1CE /* body8.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D42AFFB319D1F83B0060B32A /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		D48C79B319C93F33002D4569 /* BMI Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BMI Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D48C79B619C93F33002D4569 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D48C79B819C93F33002D4569 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +64,16 @@
 		D48C79DD19C93F33002D4569 /* BMI CalculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BMI CalculatorTests-Info.plist"; sourceTree = "<group>"; };
 		D48C79DF19C93F33002D4569 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D48C79E119C93F33002D4569 /* BMI_CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMI_CalculatorTests.m; sourceTree = "<group>"; };
+		D48C79EB19C944BA002D4569 /* BmiModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BmiModel.h; sourceTree = "<group>"; };
+		D48C79EC19C944BA002D4569 /* BmiModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BmiModel.m; sourceTree = "<group>"; };
+		D49D691719D0F04B00F2E1CE /* body1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = body1.png; sourceTree = "<group>"; };
+		D49D691819D0F04B00F2E1CE /* body2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = body2.png; sourceTree = "<group>"; };
+		D49D691919D0F04B00F2E1CE /* body3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = body3.png; sourceTree = "<group>"; };
+		D49D691A19D0F04B00F2E1CE /* body4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = body4.png; sourceTree = "<group>"; };
+		D49D691B19D0F04B00F2E1CE /* body5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = body5.png; sourceTree = "<group>"; };
+		D49D691C19D0F04B00F2E1CE /* body6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = body6.png; sourceTree = "<group>"; };
+		D49D691D19D0F04B00F2E1CE /* body7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = body7.png; sourceTree = "<group>"; };
+		D49D691E19D0F04B00F2E1CE /* body8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = body8.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,7 +137,10 @@
 				D48C79C619C93F33002D4569 /* AppDelegate.m */,
 				D48C79C819C93F33002D4569 /* Main.storyboard */,
 				D48C79CB19C93F33002D4569 /* ViewController.h */,
+				D42AFFB319D1F83B0060B32A /* Settings.bundle */,
 				D48C79CC19C93F33002D4569 /* ViewController.m */,
+				D48C79EB19C944BA002D4569 /* BmiModel.h */,
+				D48C79EC19C944BA002D4569 /* BmiModel.m */,
 				D48C79CE19C93F33002D4569 /* Images.xcassets */,
 				D48C79BD19C93F33002D4569 /* Supporting Files */,
 			);
@@ -126,6 +150,14 @@
 		D48C79BD19C93F33002D4569 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D49D691719D0F04B00F2E1CE /* body1.png */,
+				D49D691819D0F04B00F2E1CE /* body2.png */,
+				D49D691919D0F04B00F2E1CE /* body3.png */,
+				D49D691A19D0F04B00F2E1CE /* body4.png */,
+				D49D691B19D0F04B00F2E1CE /* body5.png */,
+				D49D691C19D0F04B00F2E1CE /* body6.png */,
+				D49D691D19D0F04B00F2E1CE /* body7.png */,
+				D49D691E19D0F04B00F2E1CE /* body8.png */,
 				D48C79BE19C93F33002D4569 /* BMI Calculator-Info.plist */,
 				D48C79BF19C93F33002D4569 /* InfoPlist.strings */,
 				D48C79C219C93F33002D4569 /* main.m */,
@@ -230,7 +262,16 @@
 			files = (
 				D48C79CF19C93F33002D4569 /* Images.xcassets in Resources */,
 				D48C79C119C93F33002D4569 /* InfoPlist.strings in Resources */,
+				D49D692419D0F04B00F2E1CE /* body6.png in Resources */,
+				D49D692519D0F04B00F2E1CE /* body7.png in Resources */,
+				D42AFFB419D1F83B0060B32A /* Settings.bundle in Resources */,
 				D48C79CA19C93F33002D4569 /* Main.storyboard in Resources */,
+				D49D692019D0F04B00F2E1CE /* body2.png in Resources */,
+				D49D691F19D0F04B00F2E1CE /* body1.png in Resources */,
+				D49D692619D0F04B00F2E1CE /* body8.png in Resources */,
+				D49D692219D0F04B00F2E1CE /* body4.png in Resources */,
+				D49D692119D0F04B00F2E1CE /* body3.png in Resources */,
+				D49D692319D0F04B00F2E1CE /* body5.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +292,7 @@
 			files = (
 				D48C79CD19C93F33002D4569 /* ViewController.m in Sources */,
 				D48C79C719C93F33002D4569 /* AppDelegate.m in Sources */,
+				D48C79ED19C944BA002D4569 /* BmiModel.m in Sources */,
 				D48C79C319C93F33002D4569 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,6 +498,7 @@
 				D48C79E719C93F33002D4569 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D48C79E819C93F33002D4569 /* Build configuration list for PBXNativeTarget "BMI CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +507,7 @@
 				D48C79EA19C93F33002D4569 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

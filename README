@@ -1,0 +1,53 @@
+README
+
+Created by David Pedroza on 9/16/14
+Email: Krazydave65@csu.fullerton.edu
+
+Project Name: BMI Calculator
+==================================================================
+
+Files:	
+	Main.storyboard
+	ViewController.h
+	ViewController.m
+	BmiModel.h
+	BmiModel.m
+
+
+Description: 
+==================================================================
+Main.storyboard: 
+	This is the view of the application 
+
+ViewController.h: 
+	This ViewController.h file declares all the variables, IBAction functions and properties.
+
+ViewController.m: 
+	This ViewController.m file connects all the IBActions and Outlets to the STORYBOARD. This controller accesses the Model, and recieves the calculated Bmi.
+
+ViewController.h: 
+	This is tbe Model of the BMI... this file declares all the bmi variables. This header function also decares a function for both US and metric	Measurements.
+
+BmiModel.h: 
+	This is tbe Model of the BMI... this file declares all the bmi variables. This header function also decares a function for both US and metric Measurements
+
+BmiModel.m: 
+	This is the implementation for US and Metric Measurements
+==================================================================
+
+
+How to use:
+	This application is to find the BMI of a persons inputed weight and height. The user can select the units of measurement(US or Metric). Once the desired unit is selected, the user can enter a height and weight. Finally, select the "Calculate" Button. The calculated body mass(BMI) will be outputted to the screen plus an image relating to the calculated BMI.
+
+	
+
+
+
+
+
+
+
+
+
+
+
